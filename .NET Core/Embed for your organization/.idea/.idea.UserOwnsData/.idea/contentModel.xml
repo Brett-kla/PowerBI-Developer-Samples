@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Brett\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Brett\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_UserOwnsData.1259887127.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Brett\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Brett\Documents\Projects\PowerBI-Developer-Samples\.NET Core\Embed for your organization" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="UserOwnsData" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="EmbedInfoController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="libman.json" t="Include" />
+        <e p="Models" t="Include">
+          <e p="EmbedConfig.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="UserOwnsData.AssemblyInfo.cs" t="Include" />
+              <e p="UserOwnsData.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="PowerBiScopes.cs" t="Include" />
+          <e p="PowerBIService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="UserOwnsData.csproj" t="IncludeRecursive" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Embed.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="index.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="data.js" t="Include" />
+            <e p="embed.js" t="Include" />
+            <e p="error.js" t="Include" />
+            <e p="events.js" t="Include" />
+            <e p="globals.js" t="Include" />
+            <e p="index.js" t="Include" />
+            <e p="login.js" t="Include" />
+            <e p="namespace.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="powerbi-client" t="Include">
+              <e p="dist" t="Include">
+                <e p="powerbi.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="UserOwnsData.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
