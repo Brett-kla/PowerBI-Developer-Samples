@@ -17,7 +17,7 @@ namespace AppOwnsData.Services
     public class PbiEmbedService
     {
         private readonly AadService aadService;
-        private readonly string urlPowerBiServiceApiRoot  = "https://api.powerbi.com";
+        private readonly string urlPowerBiServiceApiRoot  = "https://analysis.usgovcloudapi.net/powerbi/api";
 
         public PbiEmbedService(AadService aadService)
         {
@@ -135,7 +135,7 @@ namespace AppOwnsData.Services
         {
             PowerBIClient pbiClient = this.GetPowerBIClient();
 
-            // Create a request for getting Embed token 
+            // Create a request for getting Embed token
             // This method works only with new Power BI V2 workspace experience
             var tokenRequest = new GenerateTokenRequestV2(
 
@@ -168,7 +168,7 @@ namespace AppOwnsData.Services
             // Convert dataset Ids to required types
             var datasets = datasetIds.Select(datasetId => new GenerateTokenRequestV2Dataset(datasetId.ToString())).ToList();
 
-            // Create a request for getting Embed token 
+            // Create a request for getting Embed token
             // This method works only with new Power BI V2 workspace experience
             var tokenRequest = new GenerateTokenRequestV2(
 
@@ -208,7 +208,7 @@ namespace AppOwnsData.Services
                 targetWorkspaces = targetWorkspaceIds.Select(targetWorkspaceId => new GenerateTokenRequestV2TargetWorkspace(targetWorkspaceId)).ToList();
             }
 
-            // Create a request for getting Embed token 
+            // Create a request for getting Embed token
             // This method works only with new Power BI V2 workspace experience
             var tokenRequest = new GenerateTokenRequestV2(
 
